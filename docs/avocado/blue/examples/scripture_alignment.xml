@@ -23,8 +23,11 @@
             <manualAligment>
                 <userId>anil.john</userId>
                 <refs>
-                    <ref>MAT</ref>
-                    <ref>JHN 1-15</ref>
+                    <lid>
+                        <start>25535</lid>
+                        <end>26415</end>
+                    </lid>
+                    <lid>29321</lid>
                 </refs>
             </manualAligment>
         </details>
