@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burritoMetadata id="agmt::irvmal-4-wh" revision="1" version="0.1">
+    <idServer prefix="agmt" >http://registry.autographamt.com</idServer>
+    <type>
+        <flavor>x-scriptureAlignmentData</flavor>
+        <flavorType>scriptureAlignment</flavorType>
+        <hasCharacters>true</hasCharacters>
+        <hasSource>true</hasSource>
+        <isPublishable>true</isPublishable>
+        <confidentiality>
+            <metadata>unrestricted</metadata>
+            <publications>unrestricted</publications>
+            <source>confidential</source>
+        </confidentiality>
+        <details>
+            <autoAlignerVer>0.8</autoAlignerVer>
+            <stemmer>
+                <name>AgMT Malayalam Stemmer</stemmer>
+                <version>1.2</version>
+                <affixes>true</affixes>
+            </stemmer>
+            <stopWords>true</stopWords>
+            <manualAligment>
+                <userId>anil.john</userId>
+                <refs>
+                    <ref>MAT</ref>
+                    <ref>JHN 1-15</ref>
+                </refs>
+            </manualAligment>
+        </details>
+    </type>
+    <identification>
+        <name lang="en">Malayalam WH Greek Interlinear</name>
+        <description lang="en">Alignment of Malyalam IRV v.4 with Wescort-Hort Greek Text</description>
+    </identification>
+    <!-- ... -->
+</burritoMetadata>
